@@ -10,18 +10,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-
     steps:
-      - name: 'Testing Github action'
-        run: pwd
-     
-      - name: 'Testing Print '
-        run: echo Mariam 
-
-      - name: 'Print Content Before'
+      - name: 'Before'
         run: ls  
 
-      -uses: actions/checkout@v3   
+      - uses: actions/checkout@v3   
       
-      - name: 'Print Content After'
+      - name: ' After'
         run: ls
