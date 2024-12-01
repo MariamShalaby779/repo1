@@ -16,5 +16,8 @@ jobs:
         run: pwd
      
       - name: 'Testing Print '
-        run: echo Mariam  
+        run: echo Mariam 
+
+      - name: 'Print Content'
+        run: ls   
 
