@@ -18,6 +18,10 @@ jobs:
       - name: 'Testing Print '
         run: echo Mariam 
 
-      - name: 'Print Content'
-        run: ls   
+      - name: 'Print Content Before'
+        run: ls  
 
+      -uses: actions/checkout@v3   
+      
+      - name: 'Print Content After'
+        run: ls
